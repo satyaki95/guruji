@@ -1,0 +1,32 @@
+.carousel-wrapper {
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid black;
+  }
+  
+  .slick-list {
+    overflow: hidden;
+  }
+  
+  .slick-slide video {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .slick-slide>div {
+    margin: 0 5px;
+    height: 200px;
+  }
+  
+  .slick-slide>div:nth-child(1) {
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .carousel-wrapper {
+      width: 90%;
+    }
+  }
+  
